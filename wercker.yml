@@ -3,11 +3,12 @@ build:
     steps:
         # Execute the bundle install step, a step provided by wercker
         - bundle-install
-        # Execute a custom script step.
+
 
 deploy:
     steps:
         # Execute the heroku-deploy, heroku details can be edited
         # online at http://app.wercker.com/
-        - wercker-deploy
+        - heroku-deploy
+
 
