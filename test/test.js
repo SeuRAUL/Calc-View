@@ -1,4 +1,4 @@
-describle('Calculator', function () {
+/*describle('Calculator', function () {
 	describle('app', function() {
 		beforeEach(function() {
 			this.$scope = {};
@@ -13,4 +13,5 @@ describle('Calculator', function () {
 			expect(this.$scope.result).toBe(3);
 		})
 	})
-})
+})*/
+
