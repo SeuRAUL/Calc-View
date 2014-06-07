@@ -5,7 +5,7 @@ calculator.controller('Calculator', function ($scope, $http) {
 	var sendCalculationRequest = function(formData) {
 		$http.post('http://calc-server.herokuapp.com/calc/calcule', formData)
 			.success(function(data) {
-
+            $scope.result = data;
 			}) 
 			.error(function(data) {
 				console.log('Error: '+ data);
